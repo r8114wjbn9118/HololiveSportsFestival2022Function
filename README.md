@@ -1,5 +1,9 @@
 # Hololive大運動會2022 指令包(未完成)
 
+## 如何使用
+
+https://minecraft.fandom.com/zh/wiki/%E6%95%99%E7%A8%8B/%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%8C%85
+
 ## 公用指令
 
 - /function sportsfestival2022:command/initialize
