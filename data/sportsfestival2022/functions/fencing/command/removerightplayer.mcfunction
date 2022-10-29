@@ -1,0 +1,1 @@
+function sportsfestival2022:fencing/right/setplayer/remove
