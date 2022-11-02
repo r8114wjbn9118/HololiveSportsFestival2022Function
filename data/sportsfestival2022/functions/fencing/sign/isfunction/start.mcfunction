@@ -1,0 +1,1 @@
+give @p birch_sign{BlockEntityTag:{Text2:'{"text":"フェンシング"}',Text3:'{"text":"スタート"}',Text4:'{"text":"","clickEvent":{"action":"run_command","value":"/function sportsfestival2022:fencing/command/start"}}'},"display":{"Name":'{"text":"劍擊:開始(f)","italic":false}'}}

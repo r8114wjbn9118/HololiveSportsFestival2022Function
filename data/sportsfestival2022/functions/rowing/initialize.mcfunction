@@ -1,0 +1,8 @@
+#initialize
+
+scoreboard objectives add rowinguseweakeffect minecraft.used:minecraft.snowball
+scoreboard objectives add rowingusestrongeffect minecraft.used:minecraft.splash_potion
+
+function sportsfestival2022:rowing/whiteteam/initialize
+function sportsfestival2022:rowing/redteam/initialize
+function sportsfestival2022:rowing/yellowteam/initialize

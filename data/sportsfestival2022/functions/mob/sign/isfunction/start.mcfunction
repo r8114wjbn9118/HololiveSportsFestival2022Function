@@ -1,0 +1,1 @@
+give @p birch_sign{BlockEntityTag:{Text2:'{"text":"MOB討伐レース"}',Text3:'{"text":"スタート"}',Text4:'{"text":"","clickEvent":{"action":"run_command","value":"/function sportsfestival2022:mob/command/start"}}'},"display":{"Name":'{"text":"mob:開始(f)","italic":false}'}}

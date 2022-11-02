@@ -1,0 +1,2 @@
+function sportsfestival2022:command/countdown3
+schedule function sportsfestival2022:statues/redlight 3s

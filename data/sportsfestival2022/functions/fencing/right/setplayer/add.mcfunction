@@ -1,6 +1,6 @@
 #set right player
 
-tellraw @a {"translate":"[フェンシング] %sがエントリーしました （RIGHT SIDE）","with": [{"selector":"@p"}]}
-
-function sportsfestival2022:fencing/right/createdoor
+#function sportsfestival2022:fencing/right/setplayer/remove
 tag @p add rightfencingplayer
+
+function sportsfestival2022:fencing/givesword
