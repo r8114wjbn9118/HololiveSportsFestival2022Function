@@ -1,1 +1,0 @@
-give @p birch_sign{BlockEntityTag:{Text1:'{"text":"[看板を右クリック]","bold":true}',Text2:'{"text":"左側"}',Text3:'{"text":"エントリー"}',Text4:'{"text":"","clickEvent":{"action":"run_command","value":"/function sportsfestival2022:mob/command/setwhiteteamsaberplayer"}}'}}

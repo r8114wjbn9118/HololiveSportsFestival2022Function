@@ -1,5 +1,7 @@
 #end
-
+bossbar set redteammobbar name "TEAM RED : CLEAR !!"
 function sportsfestival2022:mob/redteam/showtext/end
+
 function sportsfestival2022:mob/redteam/setplayer/removeall
-bossbar set redteammobbar visible false
+
+scoreboard players add #mobfinishteamcount ateg 1

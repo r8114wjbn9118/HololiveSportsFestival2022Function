@@ -2,7 +2,7 @@
 
 clear @a[tag=yellowteammobplayer]
 
-bossbar set yellowteammobbar name "TEAM YELLOW : CLEAR !!"
+bossbar set yellowteammobbar name "TEAM YELLOW : GO TO GOAL !!"
 
 scoreboard players set #yellowteammobwave ateg 15
 

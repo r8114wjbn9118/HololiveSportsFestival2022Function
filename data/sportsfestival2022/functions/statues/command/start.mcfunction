@@ -1,3 +1,6 @@
+function sportsfestival2022:statues/showstarttext
+function sportsfestival2022:command/countdown3s
+
 function sportsfestival2022:statues/initialize
-function sportsfestival2022:command/countdown3
-schedule function sportsfestival2022:statues/showgreenlight 8s
+
+schedule function sportsfestival2022:statues/greenlight 8s

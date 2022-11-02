@@ -1,4 +1,4 @@
 #yellow team add player
 
 tag @p add yellowteammobplayer
-scoreboard players add #yellowteammobplayernumber ateg 1
+scoreboard players add #yellowteammobplayercount ateg 1

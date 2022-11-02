@@ -1,4 +1,4 @@
 #white team remove player
 
 tag @p remove whiteteammobplayer
-scoreboard players remove #whiteteammobplayernumber ateg 1
+scoreboard players remove #whiteteammobplayercount ateg 1

@@ -1,3 +1,3 @@
 #initialize
 
-scoreboard players set #whiteteamrowingplayernumber ateg 0
+scoreboard players set #whiteteamrowingplayercount ateg 0
