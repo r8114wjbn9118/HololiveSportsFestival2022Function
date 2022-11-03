@@ -1,4 +1,4 @@
 #calculate monster number
 
-scoreboard players set #whiteteammobmonsternumber ateg 0
-scoreboard players operation #whiteteammobmonsternumber ateg += @e[tag=whiteteammobmonster] ateg
+scoreboard players set #redteammobmonsternumber ateg 0
+scoreboard players operation #redteammobmonsternumber ateg += @e[tag=redteammobmonster] ateg

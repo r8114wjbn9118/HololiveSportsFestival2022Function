@@ -1,0 +1,3 @@
+function sportsfestival2022:rowing/whiteteam/setplayer/removeall
+function sportsfestival2022:rowing/redteam/setplayer/removeall
+function sportsfestival2022:rowing/yellowteam/setplayer/removeall

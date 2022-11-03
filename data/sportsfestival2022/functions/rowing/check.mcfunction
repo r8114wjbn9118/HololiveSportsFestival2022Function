@@ -1,0 +1,3 @@
+function sportsfestival2022:rowing/whiteteam/check
+function sportsfestival2022:rowing/redteam/check
+function sportsfestival2022:rowing/yellowteam/check

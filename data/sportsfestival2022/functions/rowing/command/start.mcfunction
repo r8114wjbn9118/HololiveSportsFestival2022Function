@@ -1,0 +1,7 @@
+function sportsfestival2022:rowing/showstarttext
+
+function sportsfestival2022:command/countdown3s
+
+function sportsfestival2022:rowing/removeroadblock
+
+function sportsfestival2022:rowing/check

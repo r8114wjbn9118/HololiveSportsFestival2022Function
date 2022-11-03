@@ -1,0 +1,2 @@
+function sportsfestival2022:rowing/whiteteam/setplayer/add
+function sportsfestival2022:rowing/giveitem/pilot

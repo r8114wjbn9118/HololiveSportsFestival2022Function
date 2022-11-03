@@ -1,0 +1,1 @@
+give @p birch_sign{BlockEntityTag:{Text2:'{"text":"水上ボートレース"}',Text3:'{"text":"スタート"}',Text4:'{"text":"","clickEvent":{"action":"run_command","value":"/function sportsfestival2022:rowing/command/start"}}'},"display":{"Name":'{"text":"賽艇:開始(f)","italic":false}'}}

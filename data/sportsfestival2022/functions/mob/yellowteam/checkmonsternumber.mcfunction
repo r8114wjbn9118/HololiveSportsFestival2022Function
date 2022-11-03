@@ -1,7 +1,6 @@
 #check monster number 
 
-scoreboard players set #yellowteammobmonsternumber ateg 0
-scoreboard players operation #yellowteammobmonsternumber ateg += @e[tag=yellowteammobmonster] ateg
+function sportsfestival2022:mob/yellowteam/calculatemonsternumber
 
 execute store result bossbar minecraft:yellowteammobbar value run scoreboard players get #yellowteammobmonsternumber ateg
 
