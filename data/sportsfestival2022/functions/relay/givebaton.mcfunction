@@ -1,0 +1,1 @@
+give @p minecraft:blaze_rod{display:{Name:'{"text":"バトン"}'}} 1

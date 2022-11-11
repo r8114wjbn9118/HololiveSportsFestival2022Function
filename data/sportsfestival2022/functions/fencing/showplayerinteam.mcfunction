@@ -1,0 +1,1 @@
+execute as @p unless entity @s[tag=!leftfencingplayer,tag=!rightfencingplayer] run tellraw @a {"translate":"[フェンシング] %sはエントリー済みです","with": [{"selector":"@s"}]}

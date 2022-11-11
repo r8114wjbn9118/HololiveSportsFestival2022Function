@@ -1,2 +1,2 @@
-function sportsfestival2022:fencing/left/setplayer/remove
-function sportsfestival2022:fencing/right/setplayer/remove
+function sportsfestival2022:fencing/left/setplayer/removeall
+function sportsfestival2022:fencing/right/setplayer/removeall

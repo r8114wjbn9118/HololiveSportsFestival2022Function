@@ -1,0 +1,1 @@
+give @p birch_sign{BlockEntityTag:{Text2:'{"text":"リレー"}',Text3:'{"text":"スタート"}'},"display":{"Name":'{"text":"接力:開始","italic":false}'}}

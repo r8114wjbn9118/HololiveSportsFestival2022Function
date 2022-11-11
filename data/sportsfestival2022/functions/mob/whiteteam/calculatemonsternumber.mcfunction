@@ -1,4 +1,3 @@
 #calculate monster number
 
-scoreboard players set #whiteteammobmonsternumber ateg 0
-scoreboard players operation #whiteteammobmonsternumber ateg += @e[tag=whiteteammobmonster] ateg
+execute store result score #whiteteammobmonsternumber ateg run execute if entity @e[tag=whiteteammobmonster]

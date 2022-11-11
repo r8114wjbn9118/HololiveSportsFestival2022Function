@@ -1,0 +1,3 @@
+function sportsfestival2022:relay/redteam/reset
+function sportsfestival2022:relay/whiteteam/reset
+function sportsfestival2022:relay/yellowteam/reset

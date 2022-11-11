@@ -1,6 +1,4 @@
-execute as @p if score @s statuesranking matches 1 run scoreboard players remove #whiteteamstatuesplayercount ateg 1
-execute as @p if score @s statuesranking matches 2 run scoreboard players remove #redteamstatuesplayercount ateg 1
+tellraw @a {"translate":"[だるまさんがころんだ] %sは%sにエントリーしました","with":[{"selector":"@p"},{"text":"TEAM YELLOW","color":"yellow"}]}
 
-scoreboard players add #yellowteamstatuesplayercount ateg 1
-scoreboard players set @p statuesranking 3
+tag @p add yellowteamstatuesplayer
 function sportsfestival2022:statues/setplayer/add

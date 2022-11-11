@@ -22,4 +22,6 @@ summon minecart ~ ~ ~ {Passengers:[{id:"skeleton",ArmorItems:[{},{},{},{id:"play
 bossbar set whiteteammobbar name "TEAM WHITE : WAVE FINAL"
 function sportsfestival2022:mob/whiteteam/initializemonsternumber
 
+function sportsfestival2022:mob/whiteteam/removeroadblock/5
+
 scoreboard players set #whiteteammobwave ateg 13

@@ -1,0 +1,2 @@
+
+tag @p remove whiteteamrelayplayer

@@ -1,1 +1,1 @@
-give @p iron_sword{Enchantments:[{"id":"minecraft:knockback","lvl":3}]} 1
+give @p iron_sword{AttributeModifiers:[{AttributeName:"generic.attack_damage",Base:1}],Enchantments:[{"id":"minecraft:knockback","lvl":3}]} 1

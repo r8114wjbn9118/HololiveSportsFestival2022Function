@@ -12,4 +12,6 @@ summon blaze ~ ~ ~ {Tags:["whiteteammobmonster"]}
 bossbar set whiteteammobbar name "TEAM WHITE : WAVE 3"
 function sportsfestival2022:mob/whiteteam/initializemonsternumber
 
+function sportsfestival2022:mob/whiteteam/removeroadblock/3
+
 scoreboard players set #whiteteammobwave ateg 7

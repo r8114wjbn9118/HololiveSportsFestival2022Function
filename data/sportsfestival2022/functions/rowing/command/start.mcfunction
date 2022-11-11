@@ -1,7 +1,9 @@
-function sportsfestival2022:rowing/showstarttext
+function sportsfestival2022:rowing/showteamcount
 
-function sportsfestival2022:command/countdown3s
+execute unless entity @a[tag=redteamrowingplayer] run scoreboard players set #temp1 ateg 1
+execute unless entity @a[tag=whiteteamrowingplayer] run scoreboard players set #temp1 ateg 1
+execute unless entity @a[tag=yellowteamrowingplayer] run scoreboard players set #temp1 ateg 1
 
-function sportsfestival2022:rowing/removeroadblock
+execute if score #temp1 ateg matches 0 run function sportsfestival2022:rowing/start
 
-function sportsfestival2022:rowing/check
+scoreboard players set #temp1 ateg 0

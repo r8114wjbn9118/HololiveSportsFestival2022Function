@@ -1,0 +1,3 @@
+execute as @p if entity @s[tag=redteamstatuesplayer] run tellraw @a [{"translate":"[だるまさんがころんだ] %sは","with": [{"selector":"@p","color":"red"}]},{"text":"TEAM RED","color":"red"},{"text":"にエントリー済みです"}]
+execute as @p if entity @s[tag=whiteteamstatuesplayer] run tellraw @a [{"translate":"[だるまさんがころんだ] %sは","with": [{"selector":"@p","color":"gray"}]},{"text":"TEAM WHITE","color":"gray"},{"text":"にエントリー済みです"}]
+execute as @p if entity @s[tag=yellowteamstatuesplayer] run tellraw @a [{"translate":"[だるまさんがころんだ] %sは","with": [{"selector":"@p","color":"yellow"}]},{"text":"TEAM YELLOW","color":"yellow"},{"text":"にエントリー済みです"}]

@@ -1,3 +1,5 @@
 #remove right player
 
-tag @a[tag=rightfencingplayer] remove rightfencingplayer
+clear @p
+
+tag @p remove rightfencingplayer

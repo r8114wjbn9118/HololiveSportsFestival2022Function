@@ -12,4 +12,6 @@ summon witch ~ ~ ~ {Tags:["whiteteammobmonster"]}
 bossbar set whiteteammobbar name "TEAM WHITE : WAVE 4"
 function sportsfestival2022:mob/whiteteam/initializemonsternumber
 
+function sportsfestival2022:mob/whiteteam/removeroadblock/4
+
 scoreboard players set #whiteteammobwave ateg 10

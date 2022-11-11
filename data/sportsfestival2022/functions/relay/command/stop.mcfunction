@@ -1,0 +1,2 @@
+function sportsfestival2022:relay/command/removeallplayer
+function sportsfestival2022:relay/reset

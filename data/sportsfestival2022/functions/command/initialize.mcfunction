@@ -3,18 +3,14 @@
 scoreboard objectives add ateg dummy
 scoreboard objectives add health health
 
-scoreboard players set #whiteteamplayercounttemp ateg 0
-scoreboard players set #redteamplayercounttemp ateg 0
-scoreboard players set #yellowteamplayercounttemp ateg 0
+scoreboard players set #1 ateg 1
 
-#mob
-function sportsfestival2022:mob/initialize
+scoreboard players set #temp1 ateg 0
+scoreboard players set #temp2 ateg 0
+scoreboard players set #temp3 ateg 0
 
-#fencing
-function sportsfestival2022:fencing/initialize
-
-#rowing
+function sportsfestival2022:fencing/initializ
 function sportsfestival2022:rowing/initialize
-
-#statues
 function sportsfestival2022:statues/initialize
+function sportsfestival2022:mob/initialize
+function sportsfestival2022:relay/initialize

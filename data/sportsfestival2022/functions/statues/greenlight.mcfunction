@@ -3,5 +3,6 @@ title @a title [{"text":"だるまさんが..."}]
 
 kill @e[tag=statuesmarker]
 
+schedule clear sportsfestival2022:statues/redlight
 schedule clear sportsfestival2022:statues/check/die
 function sportsfestival2022:statues/check/finish

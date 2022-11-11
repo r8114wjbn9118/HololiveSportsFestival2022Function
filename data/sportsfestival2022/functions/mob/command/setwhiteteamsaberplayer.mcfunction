@@ -1,8 +1,6 @@
 #set white team mob saber player
 #function sportsfestival2022:mob/command/setwhiteteamsaberplayer
 
-tellraw @a [{"text": "start "},{"score":{"name":"#whiteteammobplayercount","objective":"ateg"}}]
-execute unless score #whiteteammobplayercount ateg matches 3 as @p if entity @s[tag=redteammobplayer] run function sportsfestival2022:mob/redteam/setplayer/remove
-execute unless score #whiteteammobplayercount ateg matches 3 as @p if entity @s[tag=yellowteammobplayer] run function sportsfestival2022:mob/yellowteam/setplayer/remove
-execute unless score #whiteteammobplayercount ateg matches 3 as @p if entity @s[tag=!whiteteammobplayer] run function sportsfestival2022:mob/whiteteam/setplayer/saber
-tellraw @a [{"text": "end "},{"score":{"name":"#whiteteammobplayercount","objective":"ateg"}}]
+function sportsfestival2022:mob/showtext/playerinteam
+
+execute as @p unless entity @s[tag=!redteammobplayer,tag=!whiteteammobplayer,tag=!yellowteammobplayer] run function sportsfestival2022:mob/whiteteam/setplayer/saber

@@ -1,6 +1,3 @@
-function sportsfestival2022:statues/showstarttext
-function sportsfestival2022:command/countdown3s
+function sportsfestival2022:statues/showteamcount
 
-function sportsfestival2022:statues/initialize
-
-schedule function sportsfestival2022:statues/greenlight 8s
+execute if entity @a[tag=statuesplayer] run function sportsfestival2022:statues/start

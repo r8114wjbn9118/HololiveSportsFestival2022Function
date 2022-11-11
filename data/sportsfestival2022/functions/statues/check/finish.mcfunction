@@ -1,4 +1,4 @@
-execute as @a[gamemode=survival,tag=statuesplayer] at @s as @s[x=16,dx=16] run tag @s add statuesisfinish
+execute as @a[gamemode=survival,tag=statuesplayer] at @s if entity @s[x=16,dx=16] run tag @s add statuesisfinish
 
 execute as @a[tag=statuesisfinish] run scoreboard players add #statuesfinishcount ateg 1
 execute as @a[tag=statuesisfinish] store success score @s statuesranking run scoreboard players get #statuesfinishcount ateg

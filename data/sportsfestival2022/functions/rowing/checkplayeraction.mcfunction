@@ -1,0 +1,3 @@
+function sportsfestival2022:rowing/whiteteam/checkplayeraction
+function sportsfestival2022:rowing/redteam/checkplayeraction
+function sportsfestival2022:rowing/yellowteam/checkplayeraction

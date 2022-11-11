@@ -1,10 +1,9 @@
 #start mob
 
-function sportsfestival2022:mob/command/reset
+function sportsfestival2022:mob/reset
 
-function sportsfestival2022:mob/showstarttext
-function sportsfestival2022:command/countdown3s
+function sportsfestival2022:mob/showtext/teamcount
 
-execute unless score #whiteteammobplayercount ateg matches 0 run schedule function sportsfestival2022:mob/whiteteam/wavefinish 3s
-execute unless score #redteammobplayercount ateg matches 0 run schedule function sportsfestival2022:mob/redteam/wavefinish 3s
-execute unless score #yellowteammobplayercount ateg matches 0 run schedule function sportsfestival2022:mob/yellowteam/wavefinish 3s
+function sportsfestival2022:mob/existplayer
+execute if score #temp1 ateg matches 1 run function sportsfestival2022:mob/start
+function sportsfestival2022:resettemp

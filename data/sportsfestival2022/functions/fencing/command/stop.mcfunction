@@ -1,4 +1,3 @@
-bossbar set leftfencingplayerbar visible false
-bossbar set rightfencingplayerbar visible false
+function sportsfestival2022:fencing/reset
 
-function sportsfestival2022:fencing/checkhit
+schedule clear sportsfestival2022:fencing/checkhit

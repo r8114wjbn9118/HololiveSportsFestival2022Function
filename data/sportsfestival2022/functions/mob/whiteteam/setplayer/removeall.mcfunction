@@ -1,4 +1,4 @@
 #white team remove all player
 
-tag @a[tag=whiteteammobplayer] remove whiteteammobplayer
-scoreboard players set #whiteteammobplayercount ateg 0
+execute as @e[tag=whiteteammobplayer] run function sportsfestival2022:mob/giveitem/clear
+execute as @e[tag=whiteteammobplayer] run tag @s remove whiteteammobplayer

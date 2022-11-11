@@ -1,7 +1,6 @@
 #set right player
 
-tellraw @a {"translate":"[フェンシング] %sがエントリーしました （RIGHT SIDE）","with": [{"selector":"@p"}]}
+function sportsfestival2022:fencing/showplayerinteam
 
-function sportsfestival2022:fencing/right/createdoor
-
-execute unless entity @a[tag=rightfencingplayer] run function sportsfestival2022:fencing/right/setplayer/add
+execute as @p if entity @s[tag=!leftfencingplayer,tag=!rightfencingplayer] run tellraw @a {"translate":"[フェンシング] %sがエントリーしました （RIGHT SIDE）","with": [{"selector":"@p"}]}
+execute as @p if entity @s[tag=!leftfencingplayer,tag=!rightfencingplayer] run function sportsfestival2022:fencing/right/setplayer/add
